@@ -1,5 +1,5 @@
-#    This file is part of the ChannelAutoForwarder distribution (https://github.com/Sadew451/SDTelegraphBot).
-#    Copyright (c) 2021 Sadew451
+#    This file is part of the ChannelAutoForwarder distribution (https://github.com/VenujaBots/SDTelegraphBot).
+#    Copyright (c) 2021 Venuja
 
 import os
 from telegraph import upload_file
@@ -73,18 +73,18 @@ async def home(client, message):
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Channel 🙋‍♀️', url='http://telegram.me/SDBOTs_Inifinity'),
-        InlineKeyboardButton('Source Code 💾', url='https://github.com/Sadew451/SDTelegraphBot')
+        InlineKeyboardButton('Channel 🙋‍♀️', url='https://t.me/vndtranslatebotsupport'),
+        InlineKeyboardButton('Subscribe 🙂', url='https://www.youtube.com/channel/UCL8PI42TZ_uaQWVVKUJx9Eg')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await SDBots.send_message(
         chat_id=message.chat.id,
         text="""👋 Hey there,
         
-Im a Telegraph Uploader I can Upload Photo.Video & Gif
+Im a Vnd Telegraph Uploader I can Upload Photo.Video & Gif
         
 First Send me photo, video or gif to upload Telegraph
-Powerd By @SDBotsz. 🔥""",
+Made By @Venuja_Sadew. 🔥""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
@@ -97,7 +97,7 @@ async def help(client, message):
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Channel 🙋‍♀️', url='http://telegram.me/SDBOTs_Inifinity')
+        InlineKeyboardButton('Channel 🙋‍♀️', url='https://t.me/vndtranslatebotsupport')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await SDBots.send_message(
