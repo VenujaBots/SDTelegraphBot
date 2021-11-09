@@ -1,16 +1,16 @@
 {
-    "name": "Telegraph Uploader Bot",
-    "description": "A bot that can upload medias to Telegra.ph",
-    "logo": "https://telegra.ph/file/8e501f826eb025048c7ba.jpg",
+    "name": "Vnd Telegraph Uploader Bot",
+    "description": "A bot that can upload medias to Telegra.ph Made by Venuja",
+    "logo": "https://telegra.ph/file/d089078a338505c5c1854.jpg",
     "keywords": [
         "Telegra.ph",
         "Uploader",
         "Telegram Bot",
         "SDBOTs"
     ],
-    "website": "https://t.me/SDBOTs_inifinity",
-    "repository": "https://github.com/Sadew451/SDTelegraphBot",
-    "success_url": "https://telegram.dog/SDBOTsz",
+    "website": "https://t.me/vndtranslatebotsupport",
+    "repository": "https://github.com/VenujaBots/SDTelegraphBot",
+    "success_url": "https://t.me/vndtranslatebotsupport",
     "env": {
         "BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
